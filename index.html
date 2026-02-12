@@ -231,33 +231,10 @@
         <div class="container">
             <div class="lead-card fade-in">
                 <h2>Get Your Free Carousel</h2>
-                <p>Tell us about your business and we'll create a custom carousel you can post today.</p>
+                <p>Tell us who you are and what you do — we'll send you a carousel.</p>
 
-                <form id="carousel-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
-                    <div class="form-group">
-                        <label class="form-label" for="business">What does your business do?</label>
-                        <input type="text" id="business" name="business" class="form-input"
-                            placeholder="e.g. We're a family-owned roofing company in Denver" required>
-                    </div>
-
-                    <div class="form-group">
-                        <label class="form-label" for="topic">What should the carousel be about?</label>
-                        <input type="text" id="topic" name="topic" class="form-input"
-                            placeholder="e.g. 5 signs you need a new roof" required>
-                    </div>
-
-                    <div class="form-group">
-                        <label class="form-label" for="email">Where should we send it?</label>
-                        <input type="email" id="email" name="email" class="form-input"
-                            placeholder="you@yourbusiness.com" required>
-                    </div>
-
-                    <input type="hidden" name="_subject" value="New Carouselizer Request">
-
-                    <button type="submit" class="btn btn-lime btn-lg form-submit">Create My Carousel →</button>
-                    <p class="form-note">Free. No account needed. Your carousel will be delivered by email within 24
-                        hours.</p>
-                </form>
+                <div data-paperform-id="carouselizer"></div>
+                <script>(function () { var script = document.createElement('script'); script.src = "https://paperform.co/__embed.min.js"; document.body.appendChild(script); })()</script>
             </div>
         </div>
     </section>
