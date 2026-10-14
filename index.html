@@ -1,360 +1,252 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carouselizer — Free Custom Carousel Generator for Social Media</title>
-    <meta name="description"
-        content="Carousels get 3x more engagement than static posts. Get a custom carousel made for your business in 60 seconds — free.">
-    <link rel="canonical" href="https://carouselizer.ai/">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Carouselizer: free carousels from any website</title>
+  <meta name="description" content="Type your website and get a finished carousel: eight slides, a PDF, and the caption. A free tool from boomp.net. No account or card.">
+  <link rel="canonical" href="https://carouselizer.ai/">
+  <meta name="color-scheme" content="light">
 
-    <meta property="og:title" content="Carouselizer — Free Custom Carousel Generator">
-    <meta property="og:description"
-        content="Carousels get 3x more engagement than static posts. Get one made for your business — free.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://carouselizer.ai/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Carouselizer">
+  <meta property="og:url" content="https://carouselizer.ai/">
+  <meta property="og:title" content="Carouselizer: free carousels from any website">
+  <meta property="og:description" content="Type your website and get eight finished slides, a PDF, and the caption. Free. No account or card.">
+  <meta property="og:image" content="https://carouselizer.ai/assets/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Carouselizer: free carousels from any website, a free tool from boomp.net.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Carouselizer: free carousels from any website">
+  <meta name="twitter:description" content="Type your website and get eight finished slides, a PDF, and the caption. Free. No account or card.">
+  <meta name="twitter:image" content="https://carouselizer.ai/assets/og-image.png">
+  <meta name="twitter:image:alt" content="Carouselizer: free carousels from any website, a free tool from boomp.net.">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Urbanist:wght@600;700;800&display=swap"
-        rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/icon-32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/icon-192.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
 
-    <link rel="icon"
-        href="https://glowsocial.com/wp-content/uploads/2025/02/cropped-Final-Logos-for-Glow-Social-18-32x32.png"
-        sizes="32x32">
-    <link rel="icon"
-        href="https://glowsocial.com/wp-content/uploads/2025/02/cropped-Final-Logos-for-Glow-Social-18-192x192.png"
-        sizes="192x192">
-    <link rel="apple-touch-icon"
-        href="https://glowsocial.com/wp-content/uploads/2025/02/cropped-Final-Logos-for-Glow-Social-18-180x180.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Urbanist:wght@500;700&family=Inter:wght@400;600&display=swap">
+  <link rel="stylesheet" href="css/style.css">
 
-    <link rel="stylesheet" href="css/style.css">
-
-    <!-- FAQ Schema -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is a social media carousel?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "A social media carousel is a multi-slide post format available on LinkedIn, Instagram, Facebook, and other platforms. Users swipe through a series of connected slides, each containing a key point, tip, or visual. Carousels generate up to 3x more engagement than static image posts because they encourage active interaction."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Why do carousels get more engagement?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Carousels get more engagement because they require the viewer to interact by swiping, which increases dwell time. Platform algorithms interpret this as a strong signal of interest and boost the post's reach. Each swipe also counts as additional engagement, compounding the effect."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How much does it cost to create a social media carousel?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "You can create a basic carousel for free using tools like Canva. Hiring a designer typically costs $50–$200 per carousel. Done-for-you services like Glow Social Pro include 4 carousels, 4 videos, and 20 posts a month at $99/month, with automatic scheduling and publishing."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What platforms support carousel posts?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "LinkedIn, Instagram, Facebook, and TikTok all support carousel posts. LinkedIn document carousels (PDF uploads) are among the highest-performing content formats on the platform, often generating 3–5x more impressions than text-only posts."
-          }
-        }
-      ]
-    }
-    </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Carouselizer",
+    "url": "https://carouselizer.ai/",
+    "description": "Type your website and get a finished carousel: eight slides, a PDF, and the caption. A free tool from boomp.net.",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+    "provider": { "@type": "Organization", "name": "boomp.net", "url": "https://boomp.net" }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is a carousel?",
+        "acceptedAnswer": { "@type": "Answer", "text": "A carousel is one post made of several slides that people swipe through. Boomp makes eight distinct slides. The first opens one idea and the last gives your business's next step." }
+      },
+      {
+        "@type": "Question",
+        "name": "Is it really free?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Yes. One business can make one complete eight-slide carousel free. The free tool does not start a subscription." }
+      },
+      {
+        "@type": "Question",
+        "name": "Do I need an account or a card?",
+        "acceptedAnswer": { "@type": "Answer", "text": "No. You need an email, so we can send your carousel and a private link to save it." }
+      },
+      {
+        "@type": "Question",
+        "name": "How long does it take?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Several minutes. Boomp writes and designs every slide, then renders each one and the PDF. We email the result with a private link." }
+      },
+      {
+        "@type": "Question",
+        "name": "Where can I post it?",
+        "acceptedAnswer": { "@type": "Answer", "text": "On Instagram, upload the eight slide images in order. On LinkedIn, use the PDF as a document post. On Facebook, use the slide images." }
+      },
+      {
+        "@type": "Question",
+        "name": "Will it sound like my business?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Boomp reads your public pages, so it starts from your own services, details, and words. Your website is a starting point, not complete knowledge of your business. Check every slide and claim before you post it." }
+      }
+    ]
+  }
+  </script>
 </head>
-
 <body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="logo" href="https://boomp.net/?utm_source=carouselizer&amp;utm_medium=microsite&amp;utm_campaign=free_generator&amp;utm_content=carouselizer_logo">
+        <img src="assets/brand/boomp-wordmark-navy.svg" width="720" height="198" alt="boomp.net">
+      </a>
+    </div>
+  </header>
 
-    <!-- NAV -->
-    <nav>
-        <div class="container nav-content">
-            <a href="/" class="logo">Carousel<span class="logo-accent">izer</span></a>
-            <a href="#get-yours" class="btn btn-lime" style="padding: 10px 20px;">Get Your Free Carousel</a>
-        </div>
-    </nav>
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="wrap hero-copy">
+        <p class="kicker">Carouselizer, a free&nbsp;tool</p>
+        <h1 id="hero-title">Your website, made into a&nbsp;carousel.</h1>
+        <p class="lede">Software that reads your website and makes eight finished slides, a&nbsp;PDF, and the&nbsp;caption.</p>
 
-    <!-- HERO -->
-    <header class="hero">
-        <div class="container">
-            <span class="badge">Free Tool</span>
-            <h1>Carousels get <span class="lime">3× more engagement</span> than static posts</h1>
-            <p class="hero-subtitle">Get a custom carousel made for your business. Tell us what you do, and we'll create
-                slides you can post today.</p>
-            <a href="#get-yours" class="btn btn-lime btn-lg">Get Your Free Carousel →</a>
-        </div>
-    </header>
+        <form class="hand-off" action="https://boomp.net/free-carousel-generator" method="get">
+          <label for="website">Your business website</label>
+          <div class="hand-off-row">
+            <input id="website" name="website" type="text" inputmode="url" autocomplete="url" autocapitalize="none" spellcheck="false" placeholder="yourbusiness.com" required maxlength="2048" aria-describedby="hero-note">
+            <button type="submit">Make my free carousel</button>
+          </div>
+          <input type="hidden" name="utm_source" value="carouselizer">
+          <input type="hidden" name="utm_medium" value="microsite">
+          <input type="hidden" name="utm_campaign" value="free_generator">
+          <input type="hidden" name="utm_content" value="carouselizer_hero">
+          <p class="fine" id="hero-note">Free. Add your email on the next page and we send your carousel with a private link. No account, no&nbsp;card.</p>
+        </form>
+      </div>
 
-    <!-- STATS -->
-    <section style="padding-top: 0; padding-bottom: 40px;">
-        <div class="container">
-            <div class="stat-bar fade-in">
-                <div class="stat">
-                    <span class="stat-number">3×</span>
-                    <span class="stat-label">More engagement</span>
-                </div>
-                <div class="stat">
-                    <span class="stat-number">2.4×</span>
-                    <span class="stat-label">More reach</span>
-                </div>
-                <div class="stat">
-                    <span class="stat-number">1.5×</span>
-                    <span class="stat-label">More followers</span>
-                </div>
-            </div>
+      <figure class="example">
+        <div class="strip" tabindex="0" role="region" aria-label="A real eight-slide carousel. Scroll sideways to see every slide.">
+          <img src="assets/carousel/slide-1.webp" width="640" height="800" alt="Daily Bolt: Stop wasting time on event searches. Finding your people shouldn't require 27 open tabs.">
+          <img src="assets/carousel/slide-2.webp" width="640" height="800" alt="The Phoenix networking grind: tracking dozens of scattered local groups keeps you behind a screen.">
+          <img src="assets/carousel/slide-3.webp" width="640" height="800" alt="Old way: searching 57 separate group feeds. Daily Bolt way: one searchable database updated hourly.">
+          <img src="assets/carousel/slide-4.webp" width="640" height="800" loading="lazy" alt="Three steps: check Daily Bolt and filter by interest, pick your event, register directly with the host.">
+          <img src="assets/carousel/slide-5.webp" width="640" height="800" loading="lazy" alt="Get out the door faster: less time planning your week, more time making real connections in Phoenix.">
+          <img src="assets/carousel/slide-6.webp" width="640" height="800" loading="lazy" alt="Build your weekly hit list: tech meetups, founder socials and casual networking.">
+          <img src="assets/carousel/slide-7.webp" width="640" height="800" loading="lazy" alt="Put discovery on autopilot: one calendar, so you never miss a room because an algorithm hid the post.">
+          <img src="assets/carousel/slide-8.webp" width="640" height="800" loading="lazy" alt="Find your next event: search the complete Phoenix calendar at dailybolt.com.">
         </div>
+        <figcaption class="wrap">A real carousel Boomp made for Daily Bolt, our own Phoenix events&nbsp;calendar.</figcaption>
+      </figure>
     </section>
 
-    <!-- HOW IT WORKS -->
-    <section>
-        <div class="container">
-            <div class="section-header fade-in">
-                <h2>How It Works</h2>
-                <p>No design skills needed. No software to learn. Just tell us about your business.</p>
-            </div>
-            <div class="steps fade-in-children">
-                <div class="step">
-                    <span class="step-number">1</span>
-                    <h3>Describe Your Business</h3>
-                    <p>Tell us what you do and who you serve. One sentence is all it takes.</p>
-                </div>
-                <div class="step">
-                    <span class="step-number">2</span>
-                    <h3>We Create Your Carousel</h3>
-                    <p>We'll craft a multi-slide carousel tailored to your industry and audience.</p>
-                </div>
-                <div class="step">
-                    <span class="step-number">3</span>
-                    <h3>Download & Post</h3>
-                    <p>Get your slides delivered to your inbox, ready to upload to LinkedIn, Instagram, or Facebook.</p>
-                </div>
-            </div>
-        </div>
+    <section class="band band--white" aria-labelledby="how-title">
+      <div class="wrap">
+        <h2 id="how-title">How it works.</h2>
+        <ol class="steps">
+          <li>
+            <span class="step-num" aria-hidden="true">1</span>
+            <h3>Type your&nbsp;website</h3>
+            <p>Public pages only. No&nbsp;login.</p>
+          </li>
+          <li>
+            <span class="step-num" aria-hidden="true">2</span>
+            <h3>Boomp makes the&nbsp;carousel</h3>
+            <p>It takes several minutes, because every slide has to&nbsp;render.</p>
+          </li>
+          <li>
+            <span class="step-num" aria-hidden="true">3</span>
+            <h3>Check it, then post&nbsp;it</h3>
+            <p>We email the slides, the PDF, and the&nbsp;caption.</p>
+          </li>
+        </ol>
+      </div>
     </section>
 
-    <!-- CAROUSEL PREVIEW -->
-    <section class="carousel-showcase">
-        <div class="container">
-            <div class="section-header fade-in">
-                <h2>What You'll Get</h2>
-                <p>A swipeable, engaging carousel that looks like you hired a designer — without the designer price tag.
-                </p>
-            </div>
-            <div class="carousel-demo fade-in">
-                <div class="carousel-slide">
-                    <span class="slide-number">01</span>
-                    <div class="slide-content">
-                        <h4>The Hook</h4>
-                        <p>An attention-grabbing opening slide that stops the scroll and gets the first swipe.</p>
-                    </div>
-                </div>
-                <div class="carousel-slide">
-                    <span class="slide-number">02</span>
-                    <div class="slide-content">
-                        <h4>The Problem</h4>
-                        <p>Frame the challenge your audience faces. Make them feel seen and understood.</p>
-                    </div>
-                </div>
-                <div class="carousel-slide">
-                    <span class="slide-number">03</span>
-                    <div class="slide-content">
-                        <h4>Key Insights</h4>
-                        <p>2–3 slides of actionable tips, stats, or steps that deliver real value.</p>
-                    </div>
-                </div>
-                <div class="carousel-slide">
-                    <span class="slide-number">04</span>
-                    <div class="slide-content">
-                        <h4>The Proof</h4>
-                        <p>Back it up with data, social proof, or a mini case study.</p>
-                    </div>
-                </div>
-                <div class="carousel-slide">
-                    <span class="slide-number">05</span>
-                    <div class="slide-content">
-                        <h4>The CTA</h4>
-                        <p>End with a clear call to action — follow, visit, book, or share.</p>
-                    </div>
-                </div>
-            </div>
+    <section class="band" aria-labelledby="get-title">
+      <div class="wrap">
+        <h2 id="get-title">What you get.</h2>
+        <ul class="facts">
+          <li><strong>Eight</strong><span class="sr-only">: </span>finished&nbsp;slides</li>
+          <li><strong>PDF</strong><span class="sr-only">: </span>for LinkedIn document&nbsp;posts</li>
+          <li><strong>Caption</strong><span class="sr-only">: </span>a long version and a short&nbsp;one</li>
+          <li><strong>4:5</strong><span class="sr-only">: </span>for Instagram, LinkedIn, and&nbsp;Facebook</li>
+        </ul>
+
+        <div class="honest">
+          <h3>Good to know</h3>
+          <ul>
+            <li>One free carousel per&nbsp;business.</li>
+            <li>It needs a public website in&nbsp;English.</li>
+            <li>Check every slide before you post&nbsp;it.</li>
+            <li>Boomp makes it. It does not post&nbsp;it.</li>
+          </ul>
         </div>
+      </div>
     </section>
 
-    <!-- WHY CAROUSELS -->
-    <section>
-        <div class="container">
-            <div class="section-header fade-in">
-                <h2>Why Carousels Win</h2>
-                <p>Every platform's algorithm rewards carousel posts. Here's why they outperform everything else.</p>
-            </div>
-            <div class="benefits fade-in-children">
-                <div class="benefit">
-                    <div class="benefit-icon">📱</div>
-                    <h3>Swipes = Engagement Signals</h3>
-                    <p>Every swipe tells the algorithm your content is worth showing to more people. More swipes, more
-                        reach.</p>
-                </div>
-                <div class="benefit">
-                    <div class="benefit-icon">⏱️</div>
-                    <h3>Higher Dwell Time</h3>
-                    <p>People spend 2–3× longer on carousels than static posts. Algorithms love that.</p>
-                </div>
-                <div class="benefit">
-                    <div class="benefit-icon">🔁</div>
-                    <h3>Most Saved & Shared Format</h3>
-                    <p>Carousels are the #1 saved content type on Instagram and the most reshared format on LinkedIn.
-                    </p>
-                </div>
-                <div class="benefit">
-                    <div class="benefit-icon">🎯</div>
-                    <h3>Works for Every Industry</h3>
-                    <p>Tips, how-tos, before/afters, myth-busting — carousels work whether you're a roofer or a
-                        coach.</p>
-                </div>
-            </div>
+    <section class="band band--white" aria-labelledby="faq-title">
+      <div class="wrap wrap--narrow">
+        <h2 id="faq-title">Questions.</h2>
+        <div class="faq">
+          <details>
+            <summary>What is a carousel?</summary>
+            <p>A carousel is one post made of several slides that people swipe through. Boomp makes eight distinct slides. The first opens one idea and the last gives your business's next&nbsp;step.</p>
+          </details>
+          <details>
+            <summary>Is it really free?</summary>
+            <p>Yes. One business can make one complete eight-slide carousel free. The free tool does not start a&nbsp;subscription.</p>
+          </details>
+          <details>
+            <summary>Do I need an account or a card?</summary>
+            <p>No. You need an email, so we can send your carousel and a private link to save&nbsp;it.</p>
+          </details>
+          <details>
+            <summary>How long does it take?</summary>
+            <p>Several minutes. Boomp writes and designs every slide, then renders each one and the PDF. We email the result with a private&nbsp;link.</p>
+          </details>
+          <details>
+            <summary>Where can I post it?</summary>
+            <p>On Instagram, upload the eight slide images in order. On LinkedIn, use the PDF as a document post. On Facebook, use the slide&nbsp;images.</p>
+          </details>
+          <details>
+            <summary>Will it sound like my business?</summary>
+            <p>Boomp reads your public pages, so it starts from your own services, details, and words. Your website is a starting point, not complete knowledge of your business. Check every slide and claim before you post&nbsp;it.</p>
+          </details>
         </div>
+      </div>
     </section>
 
-    <!-- LEAD CAPTURE FORM -->
-    <section class="lead-section" id="get-yours">
-        <div class="container">
-            <div class="lead-card fade-in">
-                <h2>Get Your Free Carousel</h2>
-                <p>Tell us who you are and what you do — we'll send you a carousel.</p>
-
-                <div data-paperform-id="carouselizer"></div>
-                <script>(function () { var script = document.createElement('script'); script.src = "https://paperform.co/__embed.min.js"; document.body.appendChild(script); })()</script>
-            </div>
-        </div>
+    <section class="close" aria-labelledby="close-title">
+      <div class="wrap wrap--narrow">
+        <h2 id="close-title">A carousel today. A month of posts when you want&nbsp;it.</h2>
+        <form class="hand-off" action="https://boomp.net/free-carousel-generator" method="get">
+          <label for="website-close">Your business website</label>
+          <div class="hand-off-row">
+            <input id="website-close" name="website" type="text" inputmode="url" autocomplete="url" autocapitalize="none" spellcheck="false" placeholder="yourbusiness.com" required maxlength="2048">
+            <button type="submit">Make my free carousel</button>
+          </div>
+          <input type="hidden" name="utm_source" value="carouselizer">
+          <input type="hidden" name="utm_medium" value="microsite">
+          <input type="hidden" name="utm_campaign" value="free_generator">
+          <input type="hidden" name="utm_content" value="carouselizer_close">
+        </form>
+        <p class="plans"><a href="https://boomp.net/pricing?utm_source=carouselizer&amp;utm_medium=microsite&amp;utm_campaign=free_generator&amp;utm_content=carouselizer_plans">See plans</a></p>
+      </div>
     </section>
 
-    <!-- BLOG / CONTENT TEASER -->
-    <section>
-        <div class="container">
-            <div class="section-header fade-in">
-                <h2>The Carousel Playbook</h2>
-                <p>Everything you need to know about creating carousels that actually grow your business.</p>
-            </div>
-            <div class="blog-grid fade-in-children">
-                <div class="blog-card">
-                    <span class="blog-card-tag">Guide</span>
-                    <h3>LinkedIn Carousels: The Complete 2026 Guide</h3>
-                    <p>How to create document carousels that get 3–5× more impressions than text posts.</p>
-                    <span class="blog-card-link">Coming soon →</span>
-                </div>
-                <div class="blog-card">
-                    <span class="blog-card-tag">Strategy</span>
-                    <h3>Carousel vs. Static: What the Data Actually Says</h3>
-                    <p>We analyzed 10,000 posts across industries. Here's what format wins — and when.</p>
-                    <span class="blog-card-link">Coming soon →</span>
-                </div>
-                <div class="blog-card">
-                    <span class="blog-card-tag">Templates</span>
-                    <h3>7 Carousel Frameworks That Work for Any Business</h3>
-                    <p>The myth-buster, the listicle, the before/after — steal these proven structures.</p>
-                    <span class="blog-card-link">Coming soon →</span>
-                </div>
-            </div>
-        </div>
+    <section class="band reading" aria-labelledby="read-title">
+      <div class="wrap">
+        <h2 id="read-title">Keep reading.</h2>
+        <ul class="reads">
+          <li><a href="https://boomp.net/blog/carousel-post-ideas">Carousel post ideas</a></li>
+          <li><a href="https://boomp.net/blog/linkedin-carousel-size-2026">LinkedIn carousel size guide</a></li>
+        </ul>
+      </div>
     </section>
+  </main>
 
-    <!-- FAQ -->
-    <section
-        style="background-color: var(--surface); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border);">
-        <div class="container container--narrow">
-            <div class="section-header fade-in">
-                <h2>Common Questions</h2>
-            </div>
-            <div class="faq-list" style="margin-top: 40px;">
-                <details>
-                    <summary>What is a social media carousel?</summary>
-                    <p>A social media carousel is a multi-slide post format available on LinkedIn, Instagram, Facebook,
-                        and other platforms. Users swipe through a series of connected slides, each containing a key
-                        point, tip, or visual. Carousels generate up to 3× more engagement than static image posts
-                        because they encourage active interaction.</p>
-                </details>
-                <details>
-                    <summary>Why do carousels get more engagement?</summary>
-                    <p>Carousels get more engagement because they require the viewer to interact by swiping, which
-                        increases dwell time. Platform algorithms interpret this as a strong signal of interest and
-                        boost
-                        the post's reach. Each swipe also counts as additional engagement, compounding the effect.</p>
-                </details>
-                <details>
-                    <summary>How much does it cost to create a carousel?</summary>
-                    <p>You can create a basic carousel for free using tools like Canva. Hiring a designer typically
-                        costs
-                        $50–$200 per carousel. Done-for-you services include carousel generation as part of plans
-                        starting
-                        at $49/month, which includes unlimited carousels along with other content types and automatic
-                        scheduling.</p>
-                </details>
-                <details>
-                    <summary>What platforms support carousel posts?</summary>
-                    <p>LinkedIn, Instagram, Facebook, and TikTok all support carousel posts. LinkedIn document carousels
-                        (PDF uploads) are among the highest-performing content formats on the platform, often generating
-                        3–5× more impressions than text-only posts.</p>
-                </details>
-                <details>
-                    <summary>Is this really free?</summary>
-                    <p>Yes. We'll create one custom carousel for your business at no charge. This tool is powered by <a
-                            href="https://glowsocial.com" style="color: var(--lime);">Glow Social</a>, which offers
-                        carousels, videos, and 20 posts a month with the Pro plan at $99/month — but the first carousel
-                        is
-                        on us.</p>
-                </details>
-                <details>
-                    <summary>What if I want carousels every week?</summary>
-                    <p><a href="https://glowsocial.com" style="color: var(--lime);">Glow Social</a> Pro gives you
-                        4 carousels, 4 videos, and 20 posts a month — scheduled and published
-                        automatically. $99/month, no contracts.</p>
-                </details>
-            </div>
-        </div>
-    </section>
-
-    <!-- CTA -->
-    <section class="cta-section">
-        <div class="container">
-            <div class="cta-block fade-in">
-                <h2>Want Carousels Every Week?</h2>
-                <p>Glow Social Pro gives you 4 carousels, 4 videos, and 20 posts a month — scheduled and published
-                    automatically.</p>
-                <div style="display: flex; gap: 12px; justify-content: center; flex-wrap: wrap;">
-                    <a href="https://glowsocial.com/pricing" class="btn btn-lime btn-lg">See Pro Plan — $99/month →</a>
-                    <a href="#get-yours" class="btn btn-outline btn-lg">Get a Free One First</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- FOOTER -->
-    <footer>
-        <div class="container">
-            <div class="footer-links">
-                <a href="https://glowsocial.com">Glow Social</a>
-                <a href="https://affordablesocialmedia.com">Affordable Social Media Management</a>
-            </div>
-            <p style="margin-bottom: 8px;">© 2026 Carouselizer.ai · Powered by <a href="https://glowsocial.com">Glow
-                    Social</a></p>
-            <p style="font-size: 0.7rem; opacity: 0.5;">Carouselizer is a free tool by Glow Social. We may follow up
-                with information about our paid plans.</p>
-        </div>
-    </footer>
-
-    <script src="js/main.js"></script>
-
+  <footer class="site-footer">
+    <div class="wrap footer-row">
+      <img class="footer-logo" src="assets/brand/boomp-wordmark-navy.svg" width="720" height="198" alt="boomp.net">
+      <p>Carouselizer is a free tool from&nbsp;boomp.net.</p>
+      <ul class="footer-links">
+        <li><a href="https://boomp.net/">boomp.net</a></li>
+        <li><a href="https://boomp.net/tools">Free tools</a></li>
+        <li><a href="https://boomp.net/privacy">Privacy</a></li>
+        <li><a href="https://boomp.net/terms">Terms</a></li>
+      </ul>
+      <p class="copy">&copy; 2026 boomp.net</p>
+    </div>
+  </footer>
 </body>
-
 </html>
